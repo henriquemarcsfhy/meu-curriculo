@@ -1,0 +1,55 @@
+/* seletor por elemento */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* seletor por ID */
+#topo {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 20px;
+}
+
+/* seletor por classe */
+.titulo {
+    font-family: 'Poppins', sans-serif; /* fonte externa */
+    font-style: italic; /* estilo 1 */
+}
+
+/* classe */
+.subtitulo {
+    text-decoration: underline; /* decoração de texto */
+}
+
+/* classe */
+.italico {
+    font-style: oblique; /* estilo 2 */
+}
+
+/* classe */
+.negrito {
+    font-weight: bold;
+}
+
+/* seletor por atributo */
+a[target="_blank"] {
+    color: #00ffcc;
+}
+
+/* pseudo-classe */
+a:hover {
+    color: red;
+}
+
+/* elemento */
+img {
+    border-radius: 10px;
+}
+
+/* contraste visual */
+section {
+    margin: 20px;
+}
